@@ -1,0 +1,142 @@
+
+# measureR <img src="man/figures/logomeasureR.png" align="right" width="120" />
+
+<!-- badges: start -->
+
+[![CRAN
+status](https://www.r-pkg.org/badges/version/measureR)](https://CRAN.R-project.org/package=measureR)
+[![CRAN
+release](https://www.r-pkg.org/badges/last-release/measureR)](https://CRAN.R-project.org/package=measureR)
+[![Downloads](https://cranlogs.r-pkg.org/badges/measureR)](https://cranlogs.r-pkg.org/badges/measureR)
+[![Total
+Downloads](https://cranlogs.r-pkg.org/badges/grand-total/measureR)](https://cranlogs.r-pkg.org/badges/grand-total/measureR)
+
+[![R-CMD-check](https://github.com/hdmeasure/measureR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/hdmeasure/measureR/actions/workflows/R-CMD-check.yaml)
+[![License:
+MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Lifecycle:
+stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html)
+
+<!-- badges: end -->
+
+measureR is an an R Shiny application for educational and psychological
+measurement, including:
+
+- **Content Validity (CV)**
+- **Exploratory Factor Analysis (EFA)**
+- **Confirmatory Factor Analysis (CFA)**
+- **Classical Test Theory (CTT)**
+- **Item Response Theory (IRT)**
+
+All analyses can be performed **without writing any code**, making the
+package accessible for researchers, students, and applied analysts.
+
+------------------------------------------------------------------------
+
+## Installation
+
+``` r
+# Install from CRAN (when available)
+install.packages("measureR")
+
+# Install development version from GitHub (optional)
+remotes::install_github("hdmeasure/measureR")
+```
+
+------------------------------------------------------------------------
+
+## Launch the Application
+
+``` r
+library(measureR)
+measureR::run_measureR()
+```
+
+This opens the full Shiny application, including all measureR modules,
+data upload, built-in datasets, interactive plots, and reporting
+features.
+
+------------------------------------------------------------------------
+
+## Video Tutorial
+
+[![measureR – Installation and Quick
+Start](https://img.youtube.com/vi/PH9BmaNV2K8/maxresdefault.jpg)](https://www.youtube.com/watch?v=PH9BmaNV2K8)
+
+🎬 *Click the image to watch the installation and quick-start tutorial
+for **measureR***.
+
+------------------------------------------------------------------------
+
+## Features
+
+### ✔ Content Validity (CV)
+
+- Aiken’s V, CVR (Lawshe), I-CVI, and S-CVI/Ave computation.
+- Automatic critical value comparison and interpretation badges.
+- Clear tabular summaries and export-ready results.
+
+### ✔ Exploratory Factor Analysis (EFA)
+
+- KMO, Bartlett test, parallel analysis.
+- Factor extraction with rotation.
+- Factor scores and loading matrix export.
+- Clean HTML summaries for clearer interpretation.
+
+### ✔ Confirmatory Factor Analysis (CFA)
+
+- Lavaan model editor.
+- Fit measures, loadings, factor scores.
+- Fully customized SEM path diagrams.
+
+### ✔ Classical Test Theory (CTT)
+
+- Item difficulty and discrimination indices.
+- Test reliability (α), SEM, and score distribution analysis.
+- Distractor analysis for multiple-choice items.
+- Comprehensive item and test-level summary outputs.
+
+### ✔ Item Response Theory (IRT)
+
+- Supports dichotomous and polytomous items.
+- Automatically fits Rasch, 2PL, 3PL (or PCM/GRM/GPCM).
+- ICC plots, test information, factor scores.
+- Multi-dimensional visualization with 3D surfaces and heatmaps.
+
+------------------------------------------------------------------------
+
+## Live Demo (Shiny Application)
+
+The full functionality of **measureR** is available through an
+interactive Shiny web application.
+
+👉 **Launch the live application:**  
+<https://measure.shinyapps.io/measureR/>
+
+The web interface provides direct access to all analysis modules,
+including Content Validity, Exploratory and Confirmatory Factor
+Analysis, Classical Test Theory, and Item Response Theory, allowing
+users to explore the application without local installation.
+
+------------------------------------------------------------------------
+
+## Citation
+
+If you use measureR in publications, please cite:
+
+Djidu, H. (2026). *measureR: Tools for educational and psychological
+measurement. <https://github.com/hdmeasure/measureR>*. R Packages.
+
+------------------------------------------------------------------------
+
+## Contributing
+
+Bug reports and feature requests are welcome:
+
+<https://github.com/hdmeasure/measureR/issues>
+
+------------------------------------------------------------------------
+
+## License
+
+MIT License © 2026 Hasan Djidu

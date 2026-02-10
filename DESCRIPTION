@@ -1,0 +1,33 @@
+Package: measureR
+Title: Tools for Educational and Psychological Measurement
+Version: 0.0.1
+Authors@R: 
+    c(
+      person(
+        given = "Hasan",
+        family = "Djidu",
+        email = "hasandjidu@gmail.com",
+        role = c("aut", "cre"),
+        comment = c(ORCID = "0000-0003-1110-6815")
+      )
+    )
+Description: 'Provides an interactive toolkit for educational and psychological measurement implemented using the 'shiny' framework. The package supports content validity analysis, dimensionality assessment, and Classical Test Theory using the 'CTT' package (Willse, 2018) <doi:10.32614/CRAN.package.CTT>.Item Response Theory (IRT) analyses are conducted via 'mirt' (Chalmers, 2012) <doi:10.18637/jss.v048.i06>. Exploratory Factor Analysis is performed using 'psych' (Revelle, 2025), while Confirmatory Factor Analysis and Structural Equation Modeling are based on the 'lavaan' framework (Rosseel, 2012) <doi:10.18637/jss.v048.i02>. The application allows users to upload data, evaluate statistical models, visualize results, and export outputs through an intuitive graphical interface without requiring programming experience.
+License: MIT + file LICENSE
+Depends: R (>= 4.0.0)
+Encoding: UTF-8
+Imports: colourpicker, CTT, data.table, dplyr, DT, ggplot2, lavaan,
+        mirt, psych, purrr, readr, readxl, rlang, semPlot, semptools,
+        shiny, shinyWidgets, stats, stringr, tibble, tidyr, tidyverse,
+        viridisLite
+Suggests: knitr, pkgdown, rmarkdown, testthat (>= 3.0.0)
+RoxygenNote: 7.3.3
+VignetteBuilder: knitr
+URL: https://github.com/hdmeasure/measureR
+BugReports: https://github.com/hdmeasure/measureR/issues
+Config/testthat/edition: 3
+NeedsCompilation: no
+Packaged: 2026-02-07 22:58:06 UTC; hasandjidu
+Author: Hasan Djidu [aut, cre] (ORCID: <https://orcid.org/0000-0003-1110-6815>)
+Maintainer: Hasan Djidu <hasandjidu@gmail.com>
+Repository: CRAN
+Date/Publication: 2026-02-10 21:40:02 UTC
