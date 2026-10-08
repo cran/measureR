@@ -1,6 +1,6 @@
 Package: measureR
 Title: Tools for Educational and Psychological Measurement
-Version: 0.0.3
+Version: 0.0.5
 Authors@R: 
     c(
       person(
@@ -22,10 +22,11 @@ License: MIT + file LICENSE
 Depends: R (>= 4.0.0)
 Encoding: UTF-8
 Imports: colourpicker, CTT, data.table, dplyr, DT, flextable, ggplot2,
-        haven, kableExtra, knitr, lavaan, magick, irr, mirt, officer,
-        psych, purrr, readr, readxl, rlang, rmarkdown, scales, semPlot,
-        semptools, shiny, shinyBS, shinycssloaders, shinyWidgets,
-        stats, stringr, tibble, tidyr, tidyverse, viridisLite
+        haven, httr, jsonlite, kableExtra, knitr, lavaan, magick, irr,
+        mirt, officer, pdftools, psych, purrr, readr, readxl, rlang,
+        rmarkdown, scales, semPlot, semptools, shiny, shinyBS,
+        shinycssloaders, shinyWidgets, stats, stringr, tibble, tidyr,
+        tidyverse, viridisLite, writexl
 Suggests: pkgdown, testthat (>= 3.0.0)
 VignetteBuilder: knitr
 URL: https://github.com/hdmeasure/measureR
@@ -33,9 +34,9 @@ BugReports: https://github.com/hdmeasure/measureR/issues
 Config/testthat/edition: 3
 Config/roxygen2/version: 8.0.0
 NeedsCompilation: no
-Packaged: 2026-05-15 08:20:40 UTC; hasandjidu
+Packaged: 2026-10-08 01:44:58 UTC; hasandjidu
 Author: Hasan Djidu [aut, cre] (ORCID: <https://orcid.org/0000-0003-1110-6815>),
   Heri Retnawati [ctb] (ORCID: <https://orcid.org/0000-0002-1792-5873>)
 Maintainer: Hasan Djidu <hasandjidu@gmail.com>
 Repository: CRAN
-Date/Publication: 2026-05-15 08:40:02 UTC
+Date/Publication: 2026-10-08 02:30:02 UTC
